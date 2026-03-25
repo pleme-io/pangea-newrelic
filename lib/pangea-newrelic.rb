@@ -4,6 +4,8 @@
 require 'pangea-core'
 require 'terraform-synthesizer'
 
+module Pangea; module Resources; module Newrelic; module Types; end; end; end; end
+
 # Newrelic resources
 require_relative 'pangea/resources/newrelic_account_management/resource'
 require_relative 'pangea/resources/newrelic_alert_channel/resource'
